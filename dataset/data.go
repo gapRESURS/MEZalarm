@@ -1,23 +1,26 @@
 package dataset
 
 import (
-	"fmt"
+	"MEZ/logger"
 	"github.com/joho/godotenv"
 	"os"
 )
 
 var PSWD string
+var OPERATOR string
+var WEB_IP string
+var WEB_PORT string
 
 func Data() {
-
-	// Загрузка переменных окружения из файла .env
 	err := godotenv.Load()
 	if err != nil {
-		fmt.Println("Error loading .env file")
+		logger.Log("Error loading .env file")
 		return
 	}
 
-	// Пример чтения переменной окружения
 	PSWD = os.Getenv("PSWD")
+	OPERATOR = os.Getenv("OPERATOR")
+	WEB_IP = os.Getenv("WEB_IP")
+	WEB_PORT = os.Getenv("WEB_PORT")
 
 }
