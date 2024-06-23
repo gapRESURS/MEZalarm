@@ -1,0 +1,26 @@
+.blagoyar-red {
+    --bs-bg-opacity: 1;
+    background-color: #DA291C
+}
+
+.text-blagoyar-red {
+    color: #DA291C
+}
+
+.blagoyar-yellow {
+    --bs-bg-opacity: 1;
+    background-color: #FFC72C
+}
+
+.text-blagoyar-yellow {
+    color: #FFC72C
+}
+
+.blagoyar-green {
+    --bs-bg-opacity: 1;
+    background-color: #76BC21
+}
+
+.text-blagoyar-green {
+    color: #76BC21
+}

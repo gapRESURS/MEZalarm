@@ -3,40 +3,21 @@ package web
 import (
 	"MEZ/dataset"
 	"MEZ/logger"
-	"fmt"
 	"net/http"
 )
 
 func Start() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-		// Здесь должен быть код для чтения данных с DHT22
-		// Для примера, используем статические данные
-		temperature := 25.0 // Пример температура
-		humidity := 60.0    // Пример влажность
+	js := http.FileServer(http.Dir("web/JS/"))
+	http.Handle("/JS/", http.StripPrefix("/JS/", js))
+	css := http.FileServer(http.Dir("web/CSS/"))
+	http.Handle("/CSS/", http.StripPrefix("/CSS/", css))
+	img := http.FileServer(http.Dir("web/IMG/"))
+	http.Handle("/IMG/", http.StripPrefix("/IMG/", img))
 
-		fmt.Fprintf(w, `
-			<!DOCTYPE html>
-			<html>
-			<head>
-				<meta charset="UTF-8">
-				<title>Данные с датчика</title>
-				Температура: %f°C<br>
-				Влажность: %f%%<br>
-				<script>
-					function updatePage() {
-						fetch('/')
-							.then(response => response.text())
-							.then(data => document.body.innerHTML = data);
-					}
-					setInterval(updatePage, 1000); // Обновление каждые 5 секунд
-				</script>
-			</head>
-			<body>
-				<p id="data"></p>
-			</body>
-			</html>
-		`, temperature, humidity)
-	})
+	http.HandleFunc("/API/", handlerAPI)
+	//http.HandleFunc("/ping/", handlerPing)
+	http.HandleFunc("/", handlerIndex)
+
 	logger.Log("WEB server start:", dataset.WEB_IP+":"+dataset.WEB_PORT)
 	if err := http.ListenAndServe(":"+dataset.WEB_PORT, nil); err != nil {
 		logger.Log("WEB:", err)

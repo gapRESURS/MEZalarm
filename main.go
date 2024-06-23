@@ -2,7 +2,6 @@ package main
 
 import (
 	"MEZ/dataset"
-	"MEZ/erd"
 	"MEZ/logger"
 	"MEZ/web"
 	"fmt"
@@ -13,7 +12,9 @@ func main() {
 	dataset.Data()
 	fmt.Println("PSWD:", dataset.PSWD)
 
-	erd.TrapClient()
+	//erd.RelayStatus("10.176.200.222")
+	//
+	//erd.TrapClient()
 
 	web.Start()
 }
