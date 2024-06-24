@@ -2,6 +2,7 @@ package erd
 
 import (
 	"MEZ/dataset"
+	"encoding/json"
 	"fmt"
 	"strconv"
 	"strings"
@@ -37,10 +38,17 @@ func parserT(s string) (int8, error) {
 	return int8(num), nil
 }
 
-func DHT22(ip string) (temperature, humidity int8) {
+func DHT22Json(ip string) []byte {
 	stT, _ := RequestSNMP(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.1.8.0", 161)
-	temperature, _ = parserT(stT)
+	temperature, _ := parserT(stT)
 	stH, _ := RequestSNMP(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.1.9.0", 161)
-	humidity, _ = parserH(stH)
-	return temperature, humidity
+	humidity, _ := parserH(stH)
+
+	result := map[string]int8{"temperature": temperature, "humidity": humidity}
+	jsonResult, err := json.Marshal(result)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return nil
+	}
+	return jsonResult
 }

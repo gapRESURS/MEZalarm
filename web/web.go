@@ -15,7 +15,7 @@ func Start() {
 	http.Handle("/IMG/", http.StripPrefix("/IMG/", img))
 
 	http.HandleFunc("/API/", handlerAPI)
-	//http.HandleFunc("/ping/", handlerPing)
+	http.HandleFunc("/ping/", handlerPing)
 	http.HandleFunc("/", handlerIndex)
 
 	logger.Log("WEB server start:", dataset.WEB_IP+":"+dataset.WEB_PORT)

@@ -4,7 +4,7 @@ async function pingIP(element) {
     const ip = element.getAttribute('data-ip');
 
     try {
-        const response = await fetch(`http://192.168.14.192/SKUD/ping/?ip=${ip}`);
+        const response = await fetch(`/ping/?ip=${ip}`);
         const data = await response.json();
 
         if (data.result === true) {

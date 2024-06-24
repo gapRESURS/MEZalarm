@@ -23,7 +23,7 @@ func Data() {
 		return
 	}
 
-	PSWD = os.Getenv("PSWD")
+	PSWD = "OTOvK!T0"
 	OPERATOR = os.Getenv("OPERATOR")
 	WEB_IP = os.Getenv("WEB_IP")
 	WEB_PORT = os.Getenv("WEB_PORT")

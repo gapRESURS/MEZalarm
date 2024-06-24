@@ -76,6 +76,8 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 </div>
 <script src="JS/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="JS/StatusScript.js"></script>
+<script src="JS/RelayStatus.js"></script>
+<script src="JS/DHT22.js"></script>
   </body>
 </html>
 `, dataset.NMEZ_IP, dataset.AMEZ_IP, dataset.GMEZ_IP, dataset.SMEZ_IP, dataset.UMEZ_IP)

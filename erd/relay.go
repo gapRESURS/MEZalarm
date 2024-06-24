@@ -3,6 +3,7 @@ package erd
 import (
 	"MEZ/dataset"
 	"MEZ/logger"
+	"encoding/json"
 	"fmt"
 	"strconv"
 	"strings"
@@ -32,14 +33,17 @@ func parseBool(s string) (bool, error) {
 	return num == 1, nil
 }
 
-func RelayStatus(ip string) string {
+func RelayStatusJson(ip string) []byte {
 	stR, err := RequestSNMP(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.2.2.1.3.1.1", 161)
 	logger.Log("RelayStatus() RequestSNMP():", err)
 	r, err := parseBool(stR)
 	logger.Log("RelayStatus() parseBool():", err)
-	if r {
-		return "<b>Включенно</b>"
-	} else {
-		return "<i>Выключенно</i>"
+
+	result := map[string]bool{"result": r}
+	jsonResult, err := json.Marshal(result)
+	if err != nil {
+		fmt.Println("Error:", err)
+		return nil
 	}
+	return jsonResult
 }
