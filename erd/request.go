@@ -47,3 +47,35 @@ func RequestSNMP(ip, password, oid string, port uint16) (string, error) {
 	}
 	return result, nil
 }
+
+func snmpSet(target string, community string, oid string, value int) error {
+	params := &gosnmp.GoSNMP{
+		Target:    target,
+		Port:      161,
+		Community: community,
+		Version:   gosnmp.Version1,
+		Timeout:   time.Duration(2) * time.Second,
+	}
+
+	// Подключение к SNMP агенту
+	err := params.Connect()
+	if err != nil {
+		return fmt.Errorf("error connecting to target: %v", err)
+	}
+	defer params.Conn.Close()
+
+	// Создание PDU для запроса
+	pdu := gosnmp.SnmpPDU{
+		Name:  oid,
+		Type:  gosnmp.Integer,
+		Value: value,
+	}
+
+	// Выполнение SNMP Set запроса
+	_, err = params.Set([]gosnmp.SnmpPDU{pdu})
+	if err != nil {
+		return fmt.Errorf("error performing SNMP set: %v", err)
+	}
+
+	return nil
+}

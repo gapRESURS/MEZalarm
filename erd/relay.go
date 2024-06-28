@@ -35,15 +35,101 @@ func parseBool(s string) (bool, error) {
 
 func RelayStatusJson(ip string) []byte {
 	stR, err := RequestSNMP(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.2.2.1.3.1.1", 161)
-	logger.Log("RelayStatus() RequestSNMP():", err)
+	if err != nil {
+		logger.Log("Error RelayStatus() RequestSNMP():", err)
+	}
 	r, err := parseBool(stR)
-	logger.Log("RelayStatus() parseBool():", err)
+	if err != nil {
+		logger.Log("Error RelayStatus() parseBool():", err)
+	}
 
 	result := map[string]bool{"result": r}
 	jsonResult, err := json.Marshal(result)
 	if err != nil {
-		fmt.Println("Error:", err)
+		logger.Log("Error json.Marshal:", err)
 		return nil
 	}
 	return jsonResult
+}
+
+func RelayStatus(ip string) (bool, error) {
+	logger.Log("Запрос статуса реле", ip)
+	stR, err := RequestSNMP(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.2.2.1.3.1.1", 161)
+	if err != nil {
+		return false, err
+	}
+	r, err := parseBool(stR)
+	if err != nil {
+		return false, err
+	}
+	return r, nil
+}
+
+func relayStateChange(ip string, r bool) {
+	logger.Log("Смена статуса реле", ip)
+	value := 1
+	if r {
+		value = 0
+	}
+	err := snmpSet(ip, dataset.PSWD, ".1.3.6.1.4.1.40418.2.6.2.2.1.3.1.1", value)
+	if err != nil {
+		logger.Log("snmpSet:", err)
+	}
+}
+
+func relayControl(command string) {
+
+	switch command {
+	case "ALARM.NMEZ":
+		if dataset.NMEZ_IP != "0.0.0.0" {
+			r, err := RelayStatus(dataset.NMEZ_IP)
+			if err != nil {
+				logger.Log("Error RelayStatus():", err)
+			} else {
+				logger.Log("Статус реле:", r)
+				relayStateChange(dataset.NMEZ_IP, r)
+			}
+		}
+	case "ALARM.AMEZ":
+		if dataset.AMEZ_IP != "0.0.0.0" {
+			r, err := RelayStatus(dataset.AMEZ_IP)
+			if err != nil {
+				logger.Log("Error RelayStatus():", err)
+			} else {
+				logger.Log("Статус реле:", r)
+				relayStateChange(dataset.AMEZ_IP, r)
+			}
+		}
+	case "ALARM.GMEZ":
+		if dataset.GMEZ_IP != "0.0.0.0" {
+			r, err := RelayStatus(dataset.GMEZ_IP)
+			if err != nil {
+				logger.Log("Error RelayStatus():", err)
+			} else {
+				logger.Log("Статус реле:", r)
+				relayStateChange(dataset.GMEZ_IP, r)
+			}
+		}
+	case "ALARM.SMEZ":
+		if dataset.SMEZ_IP != "0.0.0.0" {
+			r, err := RelayStatus(dataset.SMEZ_IP)
+			if err != nil {
+				logger.Log("Error RelayStatus():", err)
+			} else {
+				logger.Log("Статус реле:", r)
+				relayStateChange(dataset.SMEZ_IP, r)
+			}
+		}
+	case "ALARM.UMEZ":
+		if dataset.UMEZ_IP != "0.0.0.0" {
+			r, err := RelayStatus(dataset.UMEZ_IP)
+			if err != nil {
+				logger.Log("Error RelayStatus():", err)
+			} else {
+				logger.Log("Статус реле:", r)
+				relayStateChange(dataset.UMEZ_IP, r)
+			}
+		}
+	}
+
 }

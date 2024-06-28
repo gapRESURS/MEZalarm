@@ -1,8 +1,8 @@
 package web
 
 import (
+	"MEZ/logger"
 	"encoding/json"
-	"fmt"
 	"github.com/go-ping/ping"
 	"net"
 	"net/http"
@@ -24,7 +24,7 @@ func handlerPing(w http.ResponseWriter, r *http.Request) {
 
 	pinger, err := ping.NewPinger(ip)
 	if err != nil {
-		fmt.Println(err)
+		logger.Log("Error NewPinger():", err)
 	}
 
 	pinger.SetPrivileged(true)
@@ -38,7 +38,7 @@ func handlerPing(w http.ResponseWriter, r *http.Request) {
 		result := map[string]bool{"result": false}
 		jsonResult, err := json.Marshal(result)
 		if err != nil {
-			fmt.Println("Error:", err)
+			logger.Log("Error json.Marshal:", err)
 			return
 		}
 		w.Header().Set("Content-Type", "application/json")
@@ -47,12 +47,10 @@ func handlerPing(w http.ResponseWriter, r *http.Request) {
 		result := map[string]bool{"result": true}
 		jsonResult, err := json.Marshal(result)
 		if err != nil {
-			fmt.Println("Error:", err)
+			logger.Log("Error json.Marshal:", err)
 			return
 		}
 		w.Header().Set("Content-Type", "application/json")
 		w.Write(jsonResult)
 	}
 }
-
-//{"result": true}

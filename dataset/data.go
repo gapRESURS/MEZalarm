@@ -3,11 +3,12 @@ package dataset
 import (
 	"MEZ/logger"
 	"github.com/joho/godotenv"
+	"net"
 	"os"
 )
 
 var PSWD string
-var OPERATOR string
+var OPERATOR net.IP
 var WEB_IP string
 var WEB_PORT string
 var NMEZ_IP string
@@ -24,7 +25,10 @@ func Data() {
 	}
 
 	PSWD = "OTOvK!T0"
-	OPERATOR = os.Getenv("OPERATOR")
+
+	hexStr := os.Getenv("OPERATOR")
+	OPERATOR = net.ParseIP(hexStr)
+
 	WEB_IP = os.Getenv("WEB_IP")
 	WEB_PORT = os.Getenv("WEB_PORT")
 	NMEZ_IP = os.Getenv("NMEZ_IP")

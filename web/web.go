@@ -18,7 +18,7 @@ func Start() {
 	http.HandleFunc("/ping/", handlerPing)
 	http.HandleFunc("/", handlerIndex)
 
-	logger.Log("WEB server start:", dataset.WEB_IP+":"+dataset.WEB_PORT)
+	logger.Log("WEB server start:", "http//"+dataset.WEB_IP+":"+dataset.WEB_PORT)
 	if err := http.ListenAndServe(":"+dataset.WEB_PORT, nil); err != nil {
 		logger.Log("WEB:", err)
 	}
