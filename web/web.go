@@ -16,6 +16,7 @@ func Start() {
 
 	http.HandleFunc("/API/", handlerAPI)
 	http.HandleFunc("/ping/", handlerPing)
+	http.HandleFunc("/log/", handlerLog)
 	http.HandleFunc("/", handlerIndex)
 
 	logger.Log("WEB server start:", "http//"+dataset.WEB_IP+":"+dataset.WEB_PORT)
