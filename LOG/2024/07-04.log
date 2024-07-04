@@ -1,0 +1,163 @@
+2024/07/04 13:59:48 MEZalarm START APP
+2024/07/04 13:59:48 WEB server start: http//10.177.16.131:80
+2024/07/04 13:59:48 Start Trap server: 10.177.16.131:162
+2024/07/04 13:59:48 Trap client: 10.111.212.224
+2024/07/04 14:04:03 MEZalarm START APP
+2024/07/04 14:04:03 WEB server start: http//10.177.16.131:80
+2024/07/04 14:04:03 Start Trap server: 10.177.16.131:162
+2024/07/04 14:04:03 Trap client: 10.111.212.224
+2024/07/04 14:04:42 CHECK TRAP ip
+2024/07/04 14:04:42 CHECK TRAP password
+2024/07/04 14:04:42 IP и пароль верные, текст трапа: test notification
+2024/07/04 14:38:26 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:26 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:38:26 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:26 Error parser temperature: некорректная строка
+2024/07/04 14:38:26 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:26 Error parser temperature: некорректная строка
+2024/07/04 14:38:29 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:29 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:38:29 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:29 Error parser temperature: некорректная строка
+2024/07/04 14:38:29 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:29 Error parser temperature: некорректная строка
+2024/07/04 14:38:46 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:46 Error parser humidity: некорректная строка
+2024/07/04 14:38:46 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:46 Error parser humidity: некорректная строка
+2024/07/04 14:38:48 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:48 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:38:49 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:49 Error parser temperature: некорректная строка
+2024/07/04 14:38:49 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:49 Error parser humidity: некорректная строка
+2024/07/04 14:38:49 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:38:49 Error parser humidity: некорректная строка
+2024/07/04 14:39:06 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:06 Error parser temperature: некорректная строка
+2024/07/04 14:39:07 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:07 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:39:08 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:08 Error parser temperature: некорректная строка
+2024/07/04 14:39:09 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:09 Error parser humidity: некорректная строка
+2024/07/04 14:39:09 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:09 Error parser temperature: некорректная строка
+2024/07/04 14:39:12 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:12 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:39:26 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:26 Error parser humidity: некорректная строка
+2024/07/04 14:39:27 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:27 Error parser temperature: некорректная строка
+2024/07/04 14:39:28 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:28 Error parser humidity: некорректная строка
+2024/07/04 14:39:29 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:29 Error parser temperature: некорректная строка
+2024/07/04 14:39:29 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:29 Error parser humidity: некорректная строка
+2024/07/04 14:39:35 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:35 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:39:46 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:46 Error parser temperature: некорректная строка
+2024/07/04 14:39:47 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:47 Error parser humidity: некорректная строка
+2024/07/04 14:39:48 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:48 Error parser temperature: некорректная строка
+2024/07/04 14:39:49 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:49 Error parser humidity: некорректная строка
+2024/07/04 14:39:51 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:51 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:39:55 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:39:55 Error parser temperature: некорректная строка
+2024/07/04 14:40:06 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:06 Error parser humidity: некорректная строка
+2024/07/04 14:40:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:07 Error parser temperature: некорректная строка
+2024/07/04 14:40:08 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:08 Error parser humidity: некорректная строка
+2024/07/04 14:40:11 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:11 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:40:11 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:11 Error parser temperature: некорректная строка
+2024/07/04 14:40:15 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:15 Error parser humidity: некорректная строка
+2024/07/04 14:40:26 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:26 Error parser temperature: некорректная строка
+2024/07/04 14:40:27 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:27 Error parser humidity: некорректная строка
+2024/07/04 14:40:30 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:30 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:40:31 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:31 Error parser temperature: некорректная строка
+2024/07/04 14:40:31 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:31 Error parser humidity: некорректная строка
+2024/07/04 14:40:35 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:35 Error parser temperature: некорректная строка
+2024/07/04 14:40:46 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:46 Error parser humidity: некорректная строка
+2024/07/04 14:40:49 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:49 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:40:50 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:50 Error parser temperature: некорректная строка
+2024/07/04 14:40:51 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:51 Error parser humidity: некорректная строка
+2024/07/04 14:40:51 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:51 Error parser temperature: некорректная строка
+2024/07/04 14:40:55 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:40:55 Error parser humidity: некорректная строка
+2024/07/04 14:58:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:32 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:32 Error parser temperature: некорректная строка
+2024/07/04 14:58:32 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:58:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:32 Error parser temperature: некорректная строка
+2024/07/04 14:58:35 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:35 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/07/04 14:58:35 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:35 Error parser temperature: некорректная строка
+2024/07/04 14:58:35 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/07/04 14:58:35 Error parser temperature: некорректная строка
+2024/07/04 15:01:15 ERROR CHECK TRAP ip: 10.177.17.111 , TRUE IP: 10.111.212.224
+2024/07/04 15:01:17 ERROR CHECK TRAP ip: 10.177.17.111 , TRUE IP: 10.111.212.224
+2024/07/04 15:02:16 ERROR CHECK TRAP ip: 10.177.17.111 , TRUE IP: 10.111.212.224
+2024/07/04 15:02:17 ERROR CHECK TRAP ip: 10.177.17.111 , TRUE IP: 10.111.212.224
+2024/07/04 15:05:57 MEZalarm START APP
+2024/07/04 15:05:57 Start Trap server: 10.177.16.131:162
+2024/07/04 15:05:57 WEB server start: http//10.177.16.131:80
+2024/07/04 15:05:57 Trap client: 10.177.17.111
+2024/07/04 15:06:06 CHECK TRAP ip
+2024/07/04 15:06:06 CHECK TRAP password
+2024/07/04 15:06:06 IP и пароль верные, текст трапа: ALARM.NMEZ HIGH
+2024/07/04 15:06:07 CHECK TRAP ip
+2024/07/04 15:06:07 CHECK TRAP password
+2024/07/04 15:06:07 IP и пароль верные, текст трапа: ALARM.NMEZ LOW
+2024/07/04 15:06:37 CHECK TRAP ip
+2024/07/04 15:06:37 CHECK TRAP password
+2024/07/04 15:06:37 IP и пароль верные, текст трапа: ALARM.NMEZ HIGH
+2024/07/04 15:06:38 CHECK TRAP ip
+2024/07/04 15:06:38 CHECK TRAP password
+2024/07/04 15:06:38 IP и пароль верные, текст трапа: ALARM.NMEZ LOW
+2024/07/04 15:07:13 MEZalarm START APP
+2024/07/04 15:07:13 WEB server start: http//10.177.16.131:80
+2024/07/04 15:07:13 Start Trap server: 10.177.16.131:162
+2024/07/04 15:07:13 Trap client: 10.177.17.111
+2024/07/04 15:07:18 CHECK TRAP ip
+2024/07/04 15:07:18 CHECK TRAP password
+2024/07/04 15:07:18 Запрос статуса реле 10.177.17.112
+2024/07/04 15:07:18 Статус реле: false
+2024/07/04 15:07:18 Смена статуса реле 10.177.17.112
+2024/07/04 15:07:20 CHECK TRAP ip
+2024/07/04 15:07:20 CHECK TRAP password
+2024/07/04 15:07:20 IP и пароль верные, текст трапа: ALARM.NMEZ LOW
+2024/07/04 15:20:22 CHECK TRAP ip
+2024/07/04 15:20:22 CHECK TRAP password
+2024/07/04 15:20:22 Запрос статуса реле 10.177.17.112
+2024/07/04 15:20:22 Статус реле: true
+2024/07/04 15:20:22 Смена статуса реле 10.177.17.112
+2024/07/04 15:20:23 CHECK TRAP ip
+2024/07/04 15:20:23 CHECK TRAP password
+2024/07/04 15:20:23 IP и пароль верные, текст трапа: ALARM.NMEZ LOW
+2024/07/04 15:50:00 MEZalarm START APP
+2024/07/04 15:50:00 WEB server start: http//10.177.16.131:80
+2024/07/04 15:50:00 Start Trap server: 10.177.16.131:162
+2024/07/04 15:50:00 Trap client: 10.177.17.111

@@ -1,0 +1,797 @@
+2024/06/29 11:53:40 MEZalarm START APP
+2024/06/29 11:53:40 Start Trap server: 127.0.0.1:162
+2024/06/29 11:53:40 WEB server start: http//127.0.0.1:80
+2024/06/29 11:53:40 Trap client: 10.175.200.224
+2024/06/29 11:55:09 MEZalarm START APP
+2024/06/29 11:55:09 Start Trap server: 127.0.0.1:162
+2024/06/29 11:55:09 WEB server start: http//127.0.0.1:80
+2024/06/29 11:55:09 Trap client: 10.175.200.224
+2024/06/29 11:58:55 MEZalarm START APP
+2024/06/29 11:58:55 WEB server start: http//127.0.0.1:80
+2024/06/29 11:58:55 Start Trap server: 127.0.0.1:162
+2024/06/29 11:58:55 Trap client: 10.175.200.224
+2024/06/29 11:59:51 MEZalarm START APP
+2024/06/29 11:59:51 WEB server start: http//127.0.0.1:80
+2024/06/29 11:59:51 Start Trap server: 127.0.0.1:162
+2024/06/29 11:59:51 Trap client: 10.175.200.224
+2024/06/29 12:03:35 MEZalarm START APP
+2024/06/29 12:03:35 WEB server start: http//127.0.0.1:80
+2024/06/29 12:03:35 Start Trap server: 127.0.0.1:162
+2024/06/29 12:03:35 Trap client: 10.175.200.224
+2024/06/29 12:04:05 MEZalarm START APP
+2024/06/29 12:04:05 Start Trap server: 127.0.0.1:162
+2024/06/29 12:04:05 Trap client: 10.175.200.224
+2024/06/29 12:28:03 MEZalarm START APP
+2024/06/29 12:28:03 Start Trap server: 127.0.0.1:162
+2024/06/29 12:28:03 Trap client: 10.175.200.224
+2024/06/29 12:38:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:04 Error parser temperature: некорректная строка
+2024/06/29 12:38:07 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:07 Error parser temperature: некорректная строка
+2024/06/29 12:38:07 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:07 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:07 Error parser temperature: некорректная строка
+2024/06/29 12:38:07 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:07 Error parser temperature: некорректная строка
+2024/06/29 12:38:07 Error parser temperature: некорректная строка
+2024/06/29 12:38:07 Error parser temperature: некорректная строка
+2024/06/29 12:38:13 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:13 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:13 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:13 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:63023->10.177.200.233:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:63022->10.176.200.222:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RequestSNMP: Walk error: write udp 10.177.17.48:51533->10.177.200.233:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Walk error: write udp 10.177.17.48:51534->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Walk error: write udp 10.177.17.48:51535->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Walk error: write udp 10.177.17.48:51536->10.176.200.222:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Walk error: write udp 10.177.17.48:51537->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser temperature: некорректная строка
+2024/06/29 12:38:22 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:22 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:51541->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:51540->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:51539->10.177.200.233:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Walk error: write udp 10.177.17.48:51538->10.176.200.222:161: wsasend: An invalid argument was supplied.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error parser temperature: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:23 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:23 Error parser humidity: некорректная строка
+2024/06/29 12:38:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:24 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:26 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:26 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser temperature: некорректная строка
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:26 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:26 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:29 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:29 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser temperature: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:29 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable network.
+2024/06/29 12:38:29 Error parser humidity: некорректная строка
+2024/06/29 12:38:52 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:52 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:52 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:38:52 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:38:52 Error parser temperature: некорректная строка
+2024/06/29 12:38:52 Error parser temperature: некорректная строка
+2024/06/29 12:38:52 Error parser temperature: некорректная строка
+2024/06/29 12:39:01 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:01 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:01 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:01 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:39:01 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:39:01 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:39:04 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:04 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error parser humidity: некорректная строка
+2024/06/29 12:39:12 Error parser humidity: некорректная строка
+2024/06/29 12:39:12 Error parser humidity: некорректная строка
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error parser temperature: некорректная строка
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error parser temperature: некорректная строка
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error parser temperature: некорректная строка
+2024/06/29 12:39:12 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:12 Error parser temperature: некорректная строка
+2024/06/29 12:39:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:32 Error parser humidity: некорректная строка
+2024/06/29 12:39:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:32 Error parser humidity: некорректная строка
+2024/06/29 12:39:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:32 Error parser humidity: некорректная строка
+2024/06/29 12:39:32 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 12:39:32 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RelayStatus() RequestSNMP(): Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:21 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:21 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:21 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.176.200.222:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.177.200.233:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:21 Error parser temperature: некорректная строка
+2024/06/29 15:00:21 Error RequestSNMP: Connect error: error establishing connection to host: dial udp :0->10.175.200.224:161: connect: A socket operation was attempted to an unreachable host.
+2024/06/29 15:00:21 Error parser humidity: некорректная строка
+2024/06/29 15:00:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:00:44 Error parser temperature: некорректная строка
+2024/06/29 15:00:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:00:44 Error parser temperature: некорректная строка
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error parser temperature: некорректная строка
+2024/06/29 15:01:04 Error parser temperature: некорректная строка
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error parser temperature: некорректная строка
+2024/06/29 15:01:04 Error parser humidity: некорректная строка
+2024/06/29 15:01:04 Error parser humidity: некорректная строка
+2024/06/29 15:01:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:04 Error parser temperature: некорректная строка
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error parser humidity: некорректная строка
+2024/06/29 15:01:24 Error parser humidity: некорректная строка
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:24 Error parser humidity: некорректная строка
+2024/06/29 15:01:24 Error parser humidity: некорректная строка
+2024/06/29 15:01:24 Error parser temperature: некорректная строка
+2024/06/29 15:01:24 Error parser temperature: некорректная строка
+2024/06/29 15:01:44 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error parser humidity: некорректная строка
+2024/06/29 15:01:44 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error parser humidity: некорректная строка
+2024/06/29 15:01:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:01:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:01:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:01:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:01:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:04 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:04 Error parser temperature: некорректная строка
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:24 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:24 Error parser humidity: некорректная строка
+2024/06/29 15:02:44 Error RequestSNMP: Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:44 Error parser temperature: некорректная строка
+2024/06/29 15:02:44 Error parser temperature: некорректная строка
+2024/06/29 15:02:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:02:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:02:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:02:44 Error RelayStatus() RequestSNMP(): Walk error: request timeout (after 3 retries)
+2024/06/29 15:02:44 Error RelayStatus() parseBool(): некорректная строка: отсутствует символ ':'
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49726->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error parser humidity: некорректная строка
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49730->10.177.200.233:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error parser temperature: некорректная строка
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49731->10.176.200.222:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error parser temperature: некорректная строка
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49725->10.175.200.224:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error parser humidity: некорректная строка
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49729->10.176.200.222:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error RequestSNMP: Walk error: write udp 10.255.0.1:49734->10.177.200.233:161: wsasend: An invalid argument was supplied.
+2024/06/29 15:02:54 Error parser temperature: некорректная строка
+2024/06/29 15:02:54 Error parser temperature: некорректная строка

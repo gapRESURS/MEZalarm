@@ -80,7 +80,7 @@ func relayStateChange(ip string, r bool) {
 func relayControl(command string) {
 
 	switch command {
-	case "ALARM.NMEZ":
+	case "ALARM.NMEZ HIGH":
 		if dataset.NMEZ_IP != "0.0.0.0" {
 			r, err := RelayStatus(dataset.NMEZ_IP)
 			if err != nil {
@@ -90,7 +90,7 @@ func relayControl(command string) {
 				relayStateChange(dataset.NMEZ_IP, r)
 			}
 		}
-	case "ALARM.AMEZ":
+	case "ALARM.AMEZ HIGH":
 		if dataset.AMEZ_IP != "0.0.0.0" {
 			r, err := RelayStatus(dataset.AMEZ_IP)
 			if err != nil {
@@ -100,7 +100,7 @@ func relayControl(command string) {
 				relayStateChange(dataset.AMEZ_IP, r)
 			}
 		}
-	case "ALARM.GMEZ":
+	case "ALARM.GMEZ HIGH":
 		if dataset.GMEZ_IP != "0.0.0.0" {
 			r, err := RelayStatus(dataset.GMEZ_IP)
 			if err != nil {
@@ -110,7 +110,7 @@ func relayControl(command string) {
 				relayStateChange(dataset.GMEZ_IP, r)
 			}
 		}
-	case "ALARM.SMEZ":
+	case "ALARM.SMEZ HIGH":
 		if dataset.SMEZ_IP != "0.0.0.0" {
 			r, err := RelayStatus(dataset.SMEZ_IP)
 			if err != nil {
@@ -120,7 +120,7 @@ func relayControl(command string) {
 				relayStateChange(dataset.SMEZ_IP, r)
 			}
 		}
-	case "ALARM.UMEZ":
+	case "ALARM.UMEZ HIGH":
 		if dataset.UMEZ_IP != "0.0.0.0" {
 			r, err := RelayStatus(dataset.UMEZ_IP)
 			if err != nil {
@@ -130,6 +130,8 @@ func relayControl(command string) {
 				relayStateChange(dataset.UMEZ_IP, r)
 			}
 		}
+	default:
+		logger.Log("IP и пароль верные, текст трапа:", command)
 	}
 
 }

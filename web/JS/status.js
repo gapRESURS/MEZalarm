@@ -26,8 +26,12 @@ function updateRelayStatus() {
             })
             .then(response => {
                 if (response.result) {
+                    // Добавляем класс для красного цвета, если состояние "ВКЛЮЧЕННО"
+                    relayCell.classList.add('text-danger');
                     relayCell.textContent = 'ВКЛЮЧЕННО';
                 } else {
+                    // Удаляем классы и устанавливаем текст по умолчанию
+                    relayCell.classList.remove('text-danger', 'text-success');
                     relayCell.textContent = 'Выключено';
                 }
             })
