@@ -14,7 +14,7 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Оповецение МЭЗ</title>
+    <title>Оповещение МЭЗ</title>
 	<link rel="shortcut icon" type="image/png" href="https://www.gapresurs.ru/favicon.ico">
     <link href="CSS/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 	<link href="CSS/resurs.css" rel="stylesheet" >
@@ -73,11 +73,6 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 			</tr>
 		</tbody>
 	</table>
-
-<div class="alert alert-danger mx-3 my-5" role="alert">
-	Поскольку MEZalarm все еще находится в процессе разработки, некоторые функции могут быть недоступны или работать не в полную силу. <br>
-	Отдел Технического Обеспечения просит пользователей отнестись с пониманием к возможным ошибкам или недоработкам.
-</div>
 
 </div>
 <div class="text-secondary fs-6 position-fixed bottom-0 start-50 translate-middle-x">
