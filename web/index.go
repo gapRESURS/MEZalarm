@@ -76,7 +76,7 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 
 </div>
 <div class="text-secondary fs-6 position-fixed bottom-0 start-50 translate-middle-x">
-	К.А. Рыжков 2024
+	<a href="/log/" class="text-secondary text-decoration-none">К.А. Рыжков 2024</a>
 </div>
 
 <script src="JS/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

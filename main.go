@@ -9,6 +9,7 @@ import (
 
 func main() {
 	logger.Log("MEZalarm", "START APP")
+	logger.Clearing()
 	dataset.Data()
 
 	go erd.TrapServer()
