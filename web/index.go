@@ -53,14 +53,14 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 			  <td id="temperature">0°C</td>
 			  <td id="humidity">0%%</td>
 			</tr>
-			<tr id="GMEZ">
-			  <th scope="row"><div id="ping" data-ip="%s">Георгиевский</div></th>
+			<tr id="SMEZ">
+			  <th scope="row"><div id="ping" data-ip="%s">Сальский</div></th>
 			  <td id="relay">-</td>
 			  <td id="temperature">0°C</td>
 			  <td id="humidity">0%%</td>
 			</tr>
-			<tr id="SMEZ">
-			  <th scope="row"><div id="ping" data-ip="%s">Сальский</div></th>
+			<tr id="GMEZ">
+			  <th scope="row"><div id="ping" data-ip="%s">Георгиевский</div></th>
 			  <td id="relay">-</td>
 			  <td id="temperature">0°C</td>
 			  <td id="humidity">0%%</td>
@@ -85,6 +85,6 @@ func handlerIndex(w http.ResponseWriter, r *http.Request) {
 
 </body>
 </html>
-`, dataset.NMEZ_IP, dataset.AMEZ_IP, dataset.GMEZ_IP, dataset.SMEZ_IP, dataset.UMEZ_IP)
+`, dataset.NMEZ_IP, dataset.AMEZ_IP, dataset.SMEZ_IP, dataset.GMEZ_IP, dataset.UMEZ_IP)
 
 }
